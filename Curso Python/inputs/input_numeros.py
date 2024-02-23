@@ -9,5 +9,5 @@ numero = input("dame un numero, programador: ")
 resultado_flotante = float(numero) * 2
 
 #mostrando el resultado 
-print(resultado2)
+print(resultado_flotante)
 
