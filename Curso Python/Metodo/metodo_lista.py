@@ -38,3 +38,4 @@ lista.reverse()
 elemento_encontrado = lista.index(27)
 
 print(elemento_encontrado)
+print(lista)
