@@ -14,8 +14,9 @@ menu = dict({
             {"nombre": "10 - Desmaquillante", "valor": 25000}, 
 ]),
     "Promociones":list([
-        {"codigo": 4, "nombre": "dompra de 2", "valor: ":12000 },
-        {"codigo": 8, "nombre": "dompra de 2", "valor: ":18000 }    
+        {"codigo": 4, "nombre": "compra de 2", "valor: ":12000 },
+        {"codigo": 8, "nombre": "compra de 2", "valor: ":18000 },    
+    
     ])      
     }),
     
@@ -26,18 +27,12 @@ menu = dict({
            {"nombre": "3 - jugo de fresa", "Valor": 8000},
            {"nombre": "4 - pizza de pollo", "Valor": 15000},
            {"nombre": "5 - alitas BBQ", "Valor": 13900},
-           {"nombre": "6 - 6 piezas de pollo Broaster", "Valor": 17000}
-           {"nombre": "7 - Hamburgueza pollo apenado", }
-           {}
-           {}
-           {}
-           
-           
-           
-           
-           
-           
-           
+           {"nombre": "6 - 6 piezas de pollo Broaster", "Valor": 17000},
+           {"nombre": "7 - Hamburgueza pollo apenado", "valor": 14000},
+           {"nombre": "8 - 24 piezas de Alas", "valor": 60000},
+           {"nombre": "9 - tenders 250gr", "valor": 14000},
+           {"nombre": "10 - filete de pollo crocante", "valor": 19900}
+
        ])
         
 
