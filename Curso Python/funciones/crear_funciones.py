@@ -1,32 +1,37 @@
 #creando una funcion simple
 def saludar():
-    print("hola leidy, influencer¿Como estas?")
+    print("hola leidy, influencer ¿Como estas?")
 
 #ejecutando la funcion simple 
-saludar()
+#saludar()
 
 
 #Crear una funcion que tenga parametros
+'''
 def saludar(nombre,sexo):
     sexo.lower()
-    if(sexo == "mujer"):
+    if (sexo == "mujer"):
         adjetivo = "reina"
-    elif(awxo == "hombre"):
-        adejtivo = "titan"
+    elif (sexo == "hombre"):
+       adjetivo = "titan"
     else:
-        adejtivo = "amor"
+       adjetivo = "amor"
     print(f"Hola {nombre}, mi {adjetivo},¿Como estas?")
 
 saludar("leidy", "mujer")         
 saludar("pipe", "hombre")
 saludar("fran", "no binario")
-
+'''
 #crear una funcion que nos retorne valores
-def ccrear_contraseña_random(num):
-    listado_De_caracteres = ["abcdf"]
+def crear_contraseña_random(num):
+    chars = "abcdefghij"
     num_entero = str(num)
-    c1 = num_entero - 2
-    c2 = num_entero 
-    c3 = num_entero - 5
-    num = int(num_entero[num_entero])
-    num * 2
+    num = int(num_entero[0])
+    c1 = num - 2 #caracter(c)
+    c2 = num
+    c3 = num - 5
+    contraseña = f"{chars[c1]}{chars[c2]}{chars[c3]}{num*2}"
+    return contraseña
+passsword = (crear_contraseña_random(0))
+frase = f"Tu contraseña nueva es: {passsword}"
+print(passsword)

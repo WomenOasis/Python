@@ -8,6 +8,6 @@ tupla = tuple(["dato1", "dato2"])
 tupla = "dato1", "dato2"
 
 #Creando una tupla sin parentesis de un solo dato
-tupla = "datp", 
+tupla = "dato", 
 
 print(tupla)
